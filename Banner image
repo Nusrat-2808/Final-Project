@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <!-- Bootstrap CSS -->
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" />
+
+<!-- My CSS -->
+<link rel="stylesheet" href="style.css" />
+
+<!-- Font Awesome -->
+<script src="https://kit.fontawesome.com/996973c893.js"></script>
+
+<!-- Google Fonts -->
+<link
+href="https://fonts.googleapis.com/css2?family=Baloo+Tamma+2:wght@400;500;600;700;800&family=Roboto+Slab:wght@200;400;600;900&display=swap"
+rel="stylesheet" />q
+</head>
+<style>
+    .main-container{
+        height:100vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-image: url(https://images.unsplash.com/photo-1562813733-b31f71025d54?q=80&w=2069&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+        background-attachment: fixed;
+        background-size: cover;
+    }
+</style>
+<body>
+ <!--Main Container-->
+ <div class="main-container container">
+    <h2 class="text-white">Hello, I'm</h2>
+    <h1 class="text-warning m-heading">CODINGAL TECHNOLOGIES</h1>
+    <h2 class="text-white">Coding Education</h2>
+ </div>   
+</body>
+</html>
