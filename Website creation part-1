@@ -33,6 +33,7 @@ rel="stylesheet" />
         background-image: url(https://sdmntprsouthcentralus.oaiusercontent.com/files/00000000-e910-61f7-bcfb-5f33aa4d42ba/raw?se=2025-05-23T06%3A53%3A14Z&sp=r&sv=2024-08-04&sr=b&scid=e964f2fb-c3f2-5ea1-a08e-b2a84c47fdcb&skoid=04233560-0ad7-493e-8bf0-1347c317d021&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2025-05-23T04%3A16%3A47Z&ske=2025-05-24T04%3A16%3A47Z&sks=b&skv=2024-08-04&sig=3fWp3A0GHbHdZsi31SQKTBTl89h4pNG8Uo6XkJUJSp8%3D);
         background-attachment: fixed;
         background-size: cover;
+        font-family: Lucida Handwriting,Brush Script MT,Copperplate Gothic Light;
     }
 </style>
 </head>
