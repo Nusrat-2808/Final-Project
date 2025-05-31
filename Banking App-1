@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="jumbotron"><h1>Simple Banking App</h1></div>
+    <p>Enter The Amount To Be Credited/Debited</p>
+    <input type="number" id="input"><br><br>
+    <button type="button" onclick="Sum()">Credit</button>
+    <button type="button" onclick="Difference()">Debit</button>
+    <br>
+    <div class="container">Your Current Balance: <b id="result"></b></div>
+</body>
+</html>
