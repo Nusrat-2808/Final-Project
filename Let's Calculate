@@ -38,9 +38,7 @@
             border-width: 0;
             font-weight: bold;
             font-size: 15px;
-        }
-        .number,.empty{
-            background-color: plum;
+            background-color: lightpink
         }
         .number,.operator{
             cursor: pointer;
