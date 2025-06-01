@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- Bootstrap CSS -->
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" />
+    <!-- My CSS -->
+<link rel="stylesheet" href="style.css" />
+    <style>
+        body{
+            font-family: 'Open Sans',sans-serif;
+            background-color: lightseagreen;
+        }
+        #result{
+            border: solid 5px;
+            padding: 15px;
+        }
+        #input{
+            align-content: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="jumbotron text-center"><h1>Simple Banking App</h1></div>
+    <p class="text-center">Enter The Amount To Be Credited/Debited</p>
+    <input type="number" name="amount" id="input" class="container-fluid text-center">
+    <div class="row">
+        <button type="button" onclick="Sum()" class="col-6 text-center">Credit</button>
+    <button type="button" onclick="Difference()" class="col-6 text-center">Debit</button>
+    </div><br>
+    <div class="container text-center">Your Current Balance: <b id="result"></b></div>
+</body>
+</html>
